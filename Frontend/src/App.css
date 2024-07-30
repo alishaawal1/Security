@@ -1,0 +1,19 @@
+.appStyle {
+    display: 'flex';
+ 
+  }
+/* App.css */
+
+
+body {
+  background-color: #f7d6db; /* Change to your desired background color */
+
+  font-family:'inria-serif';
+}
+
+  
+.contentStyle{
+    padding: 20px;
+     
+    
+  }
