@@ -1,0 +1,72 @@
+.landing-container {
+  text-align: center;
+  background: url('../images/LandingPage.jpeg') no-repeat center center/cover;
+  /* Replace with your background image path */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.top-content {
+
+  color: #000000;
+  padding-bottom: 20px;
+  border-radius: 10px;
+
+}
+
+.top-left-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Full height of parent (landing-container) */
+}
+
+.top-left-content {
+  text-align: center; 
+  margin: 40rem;
+}
+
+.top-left-content h1 {
+  font-size: 3rem; /* Example font size */
+  margin-bottom: 0px;
+}
+
+.top-left-content p {
+  font-size: 1.5rem; /* Example font size */
+  margin-bottom: 20px;
+  margin-top:0px;
+  padding-bottom: 10%;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.login-button {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+
+.register-button {
+  background-color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-size: 18px;
+  margin-left: 7px;
+  font-weight: bold; /* Example different color */
+}
+
+.login-button:hover, .register-button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-details-container {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  height: 100vh;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  margin-right: 20px;
+}
+
+.profile-picture img {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-picture input {
+  width: 100%;
+}
+
+.user-details div {
+  max-width: 400px;
+}
+
+.user-details div input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #262828;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

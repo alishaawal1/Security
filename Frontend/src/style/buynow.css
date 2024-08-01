@@ -1,0 +1,97 @@
+.buynow-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* Full viewport height */
+    padding: 1rem;
+}
+
+.cake-info p1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'inria-serif';
+
+    .cake-info p2 {
+        font-size: 15px;
+    }
+}
+
+.top-content {
+    display: flex;
+    flex: 0.6;
+    /* 60% of viewport height */
+    align-items: center;
+}
+
+.bottom-content {
+    display: flex;
+    flex: 0.4;
+    /* 40% of viewport height */
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.cake-image-container {
+    flex: 0.5;
+    /* 40% of top content */
+  
+}
+
+.cake-info {
+    flex: 0.6;
+    /* 60% of top content */
+    padding: 1rem;
+}
+
+.message-section {
+    flex: 0.4;
+    /* 40% of bottom content */
+    padding: 1rem;
+}
+
+.dropdown-section {
+    flex: 0.4;
+    /* 40% of bottom content */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.actions {
+    flex: 0.2;
+    /* 20% of bottom content */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'inria-serif';
+}
+.actions .buy-now{
+  
+  border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: 'inria-serif';
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 9px;
+}
+
+.error {
+    color: red;
+    font-size: 14px; /* Adjust size as needed */
+    margin-top: 5px; /* Adjust spacing as needed */
+  }
+  

@@ -1,0 +1,166 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-style: 'inria-serif';
+}
+
+.bake h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+.bake p {
+    margin-top: 0%;
+}
+
+.main-image-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+    border-radius: 1%;
+}
+
+.shop-now-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.shop-now-btn:hover {
+    background-color: #3e3e3e;
+   
+}
+
+.featured-items {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.feature p{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+
+.featured-section {
+    display: flex;
+    margin-bottom: 3rem;
+    position: relative;
+
+}
+
+.featured-section.reverse {
+    flex-direction: row-reverse;
+
+}
+
+.featured-image {
+    width: 60%;
+
+}
+
+.featured-image.right img {
+    margin-left: 60px; /* Adjust the value as needed */
+  }
+
+
+
+.featured-image img {
+    width: 75%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.featured-text {
+    width: 50%;
+    height: 30%;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+}
+
+.featured-text.right {
+    right: 5%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* For text containers on the left side */
+.featured-text.left {
+    left: 5%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .featured-section,
+    .featured-section.reverse {
+        flex-direction: column;
+    }
+
+    .featured-image,
+    .featured-text {
+        width: 100%;
+        position: static;
+        transform: none;
+    }
+
+    .featured-text {
+        margin-top: -2rem;
+    }
+}
+.featured-text.cupcakes {
+    background-color: #784131;
+  }
+  
+  .featured-text.wedding-cake {
+    background-color: #e5f1fb;
+  }
+  
+  .featured-text.croissants {
+    background-color: #f5f1e1;
+  }
+  
+  .featured-text.cookies {
+    background-color: #f0f0f0;
+  }

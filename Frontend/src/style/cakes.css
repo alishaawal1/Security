@@ -1,0 +1,195 @@
+.cakes-catalog {
+    max-width: 1000px;
+    /* Reduced from 1200px */
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.cake-section {
+    margin-bottom: 30px;
+}
+
+.cake-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.cake-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    /* Reduced from 20px */
+}
+
+.cake-card {
+    border:1px thin whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    /* Reduced from 15px */
+    text-align: center;
+    margin: 5px;
+}
+
+.cake-image {
+    width: 100%;
+    height: 200px;
+    /* Reduced from 200px */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cake-card h3 {
+    margin: 8px 0 5px;
+    font-size: 16px;
+    /* Added to reduce text size */
+}
+
+.price-info {
+    margin: 5px 0;
+    font-size: 14px;
+    /* Added to reduce text size */
+}
+
+.price {
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.button-div {
+    padding: 6px 10px;
+    /* Reduced from 8px 12px */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    /* Added to reduce button text size */
+}
+
+.add-to-cart {
+    background-color: #F0CBCB;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.add-to-cart:hover {
+    background-color: #f77b7b;
+}
+
+.buy-now {
+    background-color: #F0CBCB;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+
+}
+
+.buy-now:hover {
+    background-color: #f77b7b;
+
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+    .cake-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .cake-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Add this to your existing CSS */
+
+.clickable {
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: rgb(255, 214, 223);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-price {
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.modal-content button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #F0CBCB;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.page button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.modal-buttons button {
+    width: 48%;
+}

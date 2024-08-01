@@ -1,0 +1,110 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inria Serif', serif; 
+}
+
+.login-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Background color of the page */
+}
+
+.left-content {
+  flex: 1.5;
+  max-width: 70%; /* Adjusted to cover 70% of the width */
+  background-image: url('../images/Login.jpeg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure left content takes full height */
+}
+
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* White background for right content */
+  padding: 20px;
+}
+
+.login-box {
+  width: 60%; /* Adjusted width */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.login-heading {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  width: 130%;
+  margin-bottom: 7px;
+}
+
+.form-group label {
+  display:flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Inria Serif', serif; 
+
+}
+
+.form-group input {
+  width:auto; /* Adjusted width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 60%; /* Button spans full width */
+  margin-top: 15px;
+  font-family: 'Inria Serif', serif; 
+  font-weight: bold;
+ align-self: center;
+}
+
+.login-button:hover {
+  background-color: #474747;
+}
+
+.forgot-password {
+  margin-bottom: 10px; 
+  text-align: right;
+  font-size: 14px;
+  color: #545454;
+}
+
+.register-link {
+  margin-top: 7px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
